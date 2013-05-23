@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% block title %}luftballons{% endblock %}
+{% block body %}
+<div class="blurb">
+  <h2>What is it?</h2>
+  <p>
+    Luftballons seeks to be a fully featured, free software suite for cutting
+    edge 3D game production. At present, Luftballons consists of a
+    deferred-rendering-oriented framework for constructing realtime rendering
+    pipelines. It is built on top of OpenGL.
+  </p>
+</div>
+<div class="blurb">
+  <h2>Any pipeline, simple and flexible</h2>
+  <p>
+    Luftballons was designed to make it easy to express any rendering
+    pipeline. Unlike many other open source engines, Luftballons was
+    explicitly designed to easily articulate deferred rendering pipelines,
+    though forward rendering is certainly possible.
+  </p>
+</div>
+<div class="blurb">
+  <h2>Performance is our problem</h2>
+  <p>
+    Luftballons was designed to expose much of the power of raw OpenGL, but to
+    make the performance decisions for the programmer. Just tell us where the
+    fragments go, and we'll figure out the fastest way to feed the data through
+    the GPU.
+  </p>
+</div>
+{% endblock %}

@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% block title %}luftballons{% endblock %}
+{% block body %}
+<div class="blurb">
+  <h2>Source control and bug tracking</h2>
+  <p>
+    Source control and bug tracking is on
+    <a href="https://github.com/sadmac7000/luftballons/">GitHub</a>
+  </p>
+</div>
+<div class="blurb">
+  <h2>IRC</h2>
+  <p>
+    Join us in <b>#luftballons</b> on <b>irc.freeenode.net</b>.
+  </p>
+</div>
+<div class="blurb">
+  <h2>Mailing list</h2>
+  <p>
+    The development mailing list is <b>devel@lists.luftengine.org</b>
+  </p>
+  <p>
+    <form action="{{ url_for('devel_subscribe') }}">
+      Email: <input type="text" name="email" />
+      <input type="submit" value="Subscribe" />
+    </form>
+  </p>
+</div>
+{% endblock %}
