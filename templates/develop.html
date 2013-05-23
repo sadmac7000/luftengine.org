@@ -20,7 +20,7 @@
     The development mailing list is <b>devel@lists.luftengine.org</b>
   </p>
   <p>
-    <form action="{{ url_for('devel_subscribe') }}">
+    <form method="POST" action="{{ url_for('devel_subscribe') }}">
       Email: <input type="text" name="email" />
       <input type="submit" value="Subscribe" />
     </form>
