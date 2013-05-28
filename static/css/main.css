@@ -36,12 +36,14 @@ div#nav {
 	display: block;
 	width: 100%;
 	text-align: justify;
+	margin-top: 2em;
 }
 
 div#nav a {
 	display: inline-block;
 	text-align: center;
 	position: relative;
+	font-size: 14pt;
 	top: 1.25em;
 	margin: -.25em;
 	text-decoration: none;
@@ -72,6 +74,10 @@ div.blurb {
 	margin: 2em;
 	padding: 1em;
 	padding-top: 0.1em;
-	background-color: #eee;
+	background-color: #f4f4ff;
 	border-radius: 1em;
+}
+
+div.blurb h2 {
+	color: #51161d;
 }
